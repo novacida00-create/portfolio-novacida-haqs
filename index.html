@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Novacida Haqs — Front-End Developer &amp; UI/UX Designer</title>
+<meta name="description" content="Portofolio Novacida Haqs, mahasiswa Teknik Informatika Universitas Gunadarma yang fokus pada pengembangan front-end dan desain UI/UX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <a class="brand" href="#top">
+    <span class="brand-mark">NH</span>
+    <span class="brand-name">novacida<span class="dim">.dev</span></span>
+  </a>
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <a href="#tentang">Tentang</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#sertifikasi">Sertifikasi</a>
+    <a href="#kontak" class="nav-cta">Hubungi Saya</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <p class="eyebrow"><span id="typedEyebrow"></span></p>
+      <h1 class="hero-title">
+        Novacida Haqs
+      </h1>
+      <p class="hero-role">Front-End Developer &amp; <em>UI/UX Designer</em></p>
+      <p class="hero-desc">
+        Mahasiswa Teknik Informatika di Universitas Gunadarma. Membangun antarmuka web dari riset
+        kebutuhan pengguna sampai baris kode terakhir — dan sedang memperdalam machine learning
+        untuk produk yang lebih pintar.
+      </p>
+      <div class="hero-actions">
+        <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+        <a href="#kontak" class="btn btn-ghost">Hubungi Saya</a>
+      </div>
+      <ul class="hero-meta">
+        <li>Depok, Indonesia</li>
+        <li>Terbuka untuk magang</li>
+      </ul>
+    </div>
+
+    <div class="hero-profile">
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <img src="Nova.jpg" alt="Novacida Haqs" class="avatar-img">
+        </div>
+        <div class="profile-info">
+          <h2 class="profile-name">Novacida Haqs</h2>
+          <p class="profile-role">Front-End Developer & UI/UX Designer</p>
+          <div class="profile-details">
+            <div class="detail-item">
+              <span class="detail-icon">&#9679;</span>
+              <span>Universitas Gunadarma</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">&#9679;</span>
+              <span>Depok, Indonesia</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">&#9679;</span>
+              <span>Open for Internship</span>
+            </div>
+          </div>
+          <div class="profile-tags">
+            <span class="tag">Web Dev</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TENTANG -->
+  <section class="about" id="tentang">
+    <div class="section-head">
+      <p class="eyebrow-sm">01 — Tentang</p>
+      <h2>Membangun dari dua sisi: desain dan kode.</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead">
+        Ketertarikan saya bermula dari rasa penasaran soal kenapa satu situs terasa nyaman dipakai
+        dan situs lain terasa membingungkan. Itu yang membawa saya mempelajari front-end
+        development sekaligus UI/UX design secara paralel — bukan sebagai dua keahlian terpisah,
+        tapi satu proses yang sama: memahami pengguna, merancang alurnya di Figma, lalu
+        mewujudkannya jadi antarmuka yang berjalan.
+      </p>
+      <div class="about-columns">
+        <div class="about-col">
+          <h3>Cara kerja saya</h3>
+          <p>Mulai dari riset kebutuhan dan alur pengguna, lanjut ke wireframe dan desain visual,
+          baru masuk ke implementasi. Saya lebih suka menyelesaikan satu fitur secara utuh —
+          dari desain sampai berfungsi — daripada meninggalkannya setengah jadi.</p>
+        </div>
+        <div class="about-col">
+          <h3>Yang sedang saya dalami</h3>
+          <p>Di luar stack web, saya sedang eksplorasi machine learning: dari sistem berbasis
+          logika (forward chaining) sampai convolutional neural network untuk analisis citra.
+          Tujuannya sederhana — memahami bagaimana produk bisa membuat keputusan, bukan cuma
+          menampilkan data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYEK -->
+  <section class="projects" id="proyek">
+    <div class="section-head">
+      <p class="eyebrow-sm">02 — Proyek</p>
+      <h2>Karya yang Dibangun dengan Dedikasi.</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Website Pinang Laundry</h3>
+          <span class="project-type">Platform Digital Full Stack</span>
+        </div>
+        <p class="project-desc">
+          Merancang dan membangun platform pemesanan laundry dari nol, mulai dari riset alur
+          pemesanan pelanggan, desain antarmuka di Figma, sampai implementasi front-end dan
+          back-end. Saya mengerjakan sistem login &amp; register dengan manajemen pengguna
+          berbasis MySQL, dan mengoordinasikan sendiri pengembangan tiap fitur dari desain
+          sampai rilis.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>React.js</li><li>PHP</li><li>MySQL</li><li>CSS</li><li>Figma</li>
+          </ul>
+          <a href="https://pinang-laundry-v2.vercel.app/" class="project-btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Sistem Rekomendasi Makanan</h3>
+          <span class="project-type">Forward Chaining</span>
+        </div>
+        <p class="project-desc">
+          Membangun sistem rekomendasi berbasis logika forward chaining yang menyusun rekomendasi
+          makanan sesuai preferensi pengguna. Sebagian besar waktu saya habiskan meriset metode
+          yang tepat dan mendokumentasikan alur pengambilan keputusan sistem secara terstruktur,
+          supaya logikanya bisa ditelusuri ulang, bukan cuma menghasilkan output.
+        </p>
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Sistem Rekomendasi Makanan</h3>
+          <span class="project-type">Forward Chaining</span>
+        </div>
+        <p class="project-desc">
+          Membangun sistem rekomendasi berbasis logika forward chaining yang menyusun rekomendasi
+          makanan sesuai preferensi pengguna. Sebagian besar waktu saya habiskan meriset metode
+          yang tepat dan mendokumentasikan alur pengambilan keputusan sistem secara terstruktur,
+          supaya logikanya bisa ditelusuri ulang, bukan cuma menghasilkan output.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>Sistem Pakar</li><li>Forward Chaining</li><li>Riset Metode</li>
+          </ul>
+          <a href="#" class="project-btn">Lihat Project</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Deteksi Kesehatan Lebah Madu</h3>
+          <span class="project-type">Machine Learning · CNN</span>
+        </div>
+        <p class="project-desc">
+          Menerapkan Convolutional Neural Network untuk menganalisis data visual dan mendeteksi
+          kondisi kesehatan lebah madu. Prosesnya mencakup riset teknologi yang relevan,
+          eksperimen pada beberapa konfigurasi model, dan evaluasi hasil secara sistematis
+          sebelum menentukan pendekatan akhir.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>Python</li><li>CNN</li><li>Machine Learning</li>
+          </ul>
+          <a href="#" class="project-btn">Lihat Project</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Toko Azzam Jaya</h3>
+          <span class="project-type">E-Commerce · Full Stack</span>
+        </div>
+        <p class="project-desc">
+          Membangun sistem toko online lengkap menggunakan Laravel, mulai dari manajemen produk,
+          keranjang belanja, hingga proses checkout. Dengan integrasi database MySQL untuk
+          menyimpan data produk, pesanan, dan pengguna secara terstruktur.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>Laravel</li><li>PHP</li><li>MySQL</li><li>HTML</li><li>CSS</li>
+          </ul>
+          <a href="https://azzam-jaya.great-site.net/" class="project-btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- KEAHLIAN -->
+  <section class="skills" id="keahlian">
+    <div class="section-head">
+      <p class="eyebrow-sm">03 — Keahlian</p>
+      <h2>Perangkat yang saya pakai sehari-hari.</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Web Development</h3>
+        <ul class="tag-list">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>MySQL</li><li>Laragon</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Desain Digital</h3>
+        <ul class="tag-list">
+          <li>Figma</li><li>UI/UX Design</li><li>Desain Visual</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>AI &amp; Teknologi</h3>
+        <ul class="tag-list">
+          <li>Python</li><li>Machine Learning</li><li>CNN</li><li>Prompt Engineering</li><li>Agentic AI</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Cara Kerja</h3>
+        <ul class="tag-list">
+          <li>Manajemen Proyek</li><li>Kolaborasi Tim</li><li>Riset &amp; Adaptasi Teknologi</li><li>Problem Solving</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lang-row">
+      <span class="lang-label">Bahasa</span>
+      <span class="lang-item">Indonesia — Native</span>
+      <span class="lang-sep">·</span>
+      <span class="lang-item">Inggris — Intermediate</span>
+    </div>
+  </section>
+
+  <!-- SERTIFIKASI -->
+  <section class="certs" id="sertifikasi">
+    <div class="section-head">
+      <p class="eyebrow-sm">04 — Sertifikasi &amp; Pelatihan</p>
+      <h2>Belajar terstruktur, di luar kelas kuliah.</h2>
+    </div>
+    <ul class="cert-log">
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">Machine Learning</span>
+          <span class="cert-issuer">Dicoding Indonesia</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/machine-learning-dicoding.pdf">Lihat Sertifikat</button>
+      </li>
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">Pemrograman dengan Python</span>
+          <span class="cert-issuer">Dicoding Indonesia</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/python-dicoding.pdf">Lihat Sertifikat</button>
+      </li>
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">Prompt Engineering untuk Software Developer</span>
+          <span class="cert-issuer">Dicoding Indonesia</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/Prompt Engineering untuk Software Developer.pdf">Lihat Sertifikat</button>
+      </li>
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">Spec-Driven Development dengan Kiro</span>
+          <span class="cert-issuer">Dicoding Indonesia</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/Spec-Driven Development dengan Kiro.pdf">Lihat Sertifikat</button>
+      </li>
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">AI Research Accelerator Lab</span>
+          <span class="cert-issuer">Google Gemini</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/AI Research Accelerator Lab.png">Lihat Sertifikat</button>
+      </li>
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">Data Analysis Fundamental</span>
+          <span class="cert-issuer">MySkill</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/Data Analysis Fundamental.pdf">Lihat Sertifikat</button>
+      </li>
+      <li>
+        <div class="cert-info">
+          <span class="cert-name">Software Engineering Coding Camp</span>
+          <span class="cert-issuer">RevoU</span>
+        </div>
+        <button class="cert-btn" data-file="sertifikat/Software Engineering Coding Camp.pdf">Lihat Sertifikat</button>
+      </li>
+    </ul>
+
+    <!-- Certificate Modal -->
+    <div class="cert-modal" id="certModal">
+      <div class="cert-modal-overlay"></div>
+      <div class="cert-modal-content">
+        <div class="cert-modal-header">
+          <h3 class="cert-modal-title">Sertifikat</h3>
+          <button class="cert-modal-close">&times;</button>
+        </div>
+        <div class="cert-modal-body">
+          <iframe class="cert-modal-iframe" id="certFrame" src="" frameborder="0"></iframe>
+          <img class="cert-modal-img" id="certImg" src="" alt="Sertifikat" style="display:none;">
+        </div>
+        <div class="cert-modal-footer">
+          <a class="cert-modal-download" id="certDownload" href="" download>Download</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PENDIDIKAN & ORGANISASI -->
+  <section class="edu-org" id="pendidikan">
+    <div class="edu-org-grid">
+      <div>
+        <div class="section-head">
+          <p class="eyebrow-sm">05 — Pendidikan</p>
+          <h2>Riwayat akademik.</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span class="timeline-year">2023 — Sekarang</span>
+            <span class="timeline-title">S1 Teknik Informatika</span>
+            <span class="timeline-place">Universitas Gunadarma, Depok</span>
+          </li>
+          <li>
+            <span class="timeline-year">Lulus 2022</span>
+            <span class="timeline-title">SMA Budhi Warman 2, Jurusan IPA</span>
+            <span class="timeline-place">Jakarta</span>
+          </li>
+        </ol>
+      </div>
+      <div>
+        <div class="section-head">
+          <p class="eyebrow-sm">06 — Organisasi &amp; Penghargaan</p>
+          <h2>Di luar layar komputer.</h2>
+        </div>
+        <ul class="org-list">
+          <li>
+            <span class="timeline-title">It's Sociart — Divisi Acara</span>
+            <span class="timeline-place">BEM FTI Universitas Gunadarma</span>
+          </li>
+          <li>
+            <span class="timeline-title">Lomba Bulan Bahasa</span>
+            <span class="timeline-place">Menggambar &amp; Presentasi dalam Bahasa Jepang</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="contact" id="kontak">
+    <div class="contact-card">
+      <p class="eyebrow-sm">07 — Kontak</p>
+      <h2>Terbuka untuk kesempatan magang.</h2>
+      <p class="contact-desc">
+        Kalau tim Anda mencari intern yang nyaman mengerjakan desain sekaligus kode, silakan
+        hubungi saya lewat salah satu kanal di bawah. Saya biasanya membalas dalam 1×24 jam.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:novacida00@gmail.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">novacida00@gmail.com</span>
+        </a>
+        <a href="https://wa.me/6289667362527" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">+62 896-6736-2527</span>
+        </a>
+        <a href="https://www.linkedin.com/in/novacida-haqs-314342317/" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">novacida-haqs</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Novacida Haqs.</span>
+  <span>Dibangun dengan HTML, CSS, dan JavaScript murni.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
