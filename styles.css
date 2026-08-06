@@ -183,6 +183,8 @@ img, svg{ display:block; max-width:100%; }
   gap: 56px;
   align-items: center;
   position: relative;
+  opacity: 1;
+  transform: none;
 }
 
 .hero::before{
