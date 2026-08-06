@@ -64,7 +64,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, observerOptions);
 
-document.querySelectorAll("section").forEach(section => {
+document.querySelectorAll("section.reveal").forEach(section => {
   observer.observe(section);
 });
 
