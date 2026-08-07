@@ -1125,6 +1125,19 @@ section.reveal.visible{
 .contact-link:hover::before{
   opacity: 1;
 }
+
+/* Contact specific colors */
+.contact-link:nth-child(1) .contact-icon{ background: rgba(234,67,53,0.15); }
+.contact-link:nth-child(1) .contact-icon svg{ color: #EA4335; }
+.contact-link:nth-child(1):hover{ border-color: #EA4335; box-shadow: 0 12px 32px -12px rgba(0,0,0,0.5), 0 0 32px rgba(234,67,53,0.2); }
+
+.contact-link:nth-child(2) .contact-icon{ background: rgba(37,211,102,0.15); }
+.contact-link:nth-child(2) .contact-icon svg{ color: #25D366; }
+.contact-link:nth-child(2):hover{ border-color: #25D366; box-shadow: 0 12px 32px -12px rgba(0,0,0,0.5), 0 0 32px rgba(37,211,102,0.2); }
+
+.contact-link:nth-child(3) .contact-icon{ background: rgba(10,102,194,0.15); }
+.contact-link:nth-child(3) .contact-icon svg{ color: #0A66C2; }
+.contact-link:nth-child(3):hover{ border-color: #0A66C2; box-shadow: 0 12px 32px -12px rgba(0,0,0,0.5), 0 0 32px rgba(10,102,194,0.2); }
 .contact-label{
   font-family: var(--font-mono);
   font-size: 11.5px;
