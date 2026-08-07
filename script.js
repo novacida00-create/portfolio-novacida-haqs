@@ -1,9 +1,4 @@
 // ---------------------------------------------------------
-// Footer year
-// ---------------------------------------------------------
-document.getElementById("year").textContent = new Date().getFullYear();
-
-// ---------------------------------------------------------
 // Mobile nav toggle
 // ---------------------------------------------------------
 const navToggle = document.getElementById("navToggle");
