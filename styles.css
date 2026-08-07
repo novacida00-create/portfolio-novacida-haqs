@@ -10,13 +10,13 @@
   --ink: #f0ede6;
   --muted: #8b95a8;
   --muted-2: #5a6374;
-  --accent: #f0b256;
-  --accent-ink: #1a1510;
-  --accent-2: #6fc4b8;
+  --accent: #38BDF8;
+  --accent-ink: #0a0e14;
+  --accent-2: #34D399;
   --line: rgba(240,237,230,0.08);
   --line-strong: rgba(240,237,230,0.15);
-  --glow: rgba(240,178,86,0.15);
-  --glow-2: rgba(111,196,184,0.12);
+  --glow: rgba(56,189,248,0.15);
+  --glow-2: rgba(52,211,153,0.12);
 
   --font-display: "Fraunces", serif;
   --font-body: "IBM Plex Sans", sans-serif;
@@ -152,7 +152,7 @@ img, svg{ display:block; max-width:100%; }
 }
 .nav-cta:hover{ 
   color: var(--accent-ink) !important; 
-  box-shadow: 0 0 30px var(--glow), 0 4px 20px rgba(240,178,86,0.3);
+  box-shadow: 0 0 30px var(--glow), 0 4px 20px rgba(56,189,248,0.3);
   transform: translateY(-1px);
 }
 
@@ -270,7 +270,7 @@ img, svg{ display:block; max-width:100%; }
   box-shadow: 0 0 24px var(--glow);
 }
 .btn-primary:hover{ 
-  box-shadow: 0 0 40px var(--glow), 0 8px 24px rgba(240,178,86,0.35);
+  box-shadow: 0 0 40px var(--glow), 0 8px 24px rgba(56,189,248,0.35);
 }
 .btn-primary::after{
   content: "";
@@ -1156,7 +1156,7 @@ section.reveal.visible{
   font-size: 12px;
   color: var(--muted-2);
   border-top: 1px solid var(--line);
-  background: linear-gradient(180deg, transparent 0%, rgba(240,178,86,0.03) 100%);
+  background: linear-gradient(180deg, transparent 0%, rgba(56,189,248,0.03) 100%);
 }
 
 /* =========================================================
@@ -1292,7 +1292,7 @@ section.reveal.visible{
 
 .hero-actions .btn:hover{
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(240,178,86,0.3);
+  box-shadow: 0 4px 20px rgba(56,189,248,0.3);
 }
 
 /* Project card hover */
