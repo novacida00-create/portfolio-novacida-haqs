@@ -1233,3 +1233,61 @@ section.reveal.visible{
   .cursor{ animation: none; }
   .btn, .project-card{ transition: none; }
 }
+
+/* Page transition animation */
+.page-section{
+  animation: pageFadeIn 0.5s ease-out;
+}
+
+@keyframes pageFadeIn{
+  from{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Nav link hover animation */
+.site-nav a{
+  position: relative;
+  transition: color var(--transition);
+}
+
+.site-nav a::after{
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.site-nav a:hover::after,
+.site-nav a.active::after{
+  width: 100%;
+}
+
+/* Hero actions smooth */
+.hero-actions .btn{
+  transition: all 0.3s ease;
+}
+
+.hero-actions .btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(240,178,86,0.3);
+}
+
+/* Project card hover */
+.project-card{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
