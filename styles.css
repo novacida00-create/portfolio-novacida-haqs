@@ -239,7 +239,7 @@ img, svg{ display:block; max-width:100%; }
 .hero-desc{
   margin-top: 22px;
   max-width: 46ch;
-  color: var(--muted);
+  color: #94A3B8;
   font-size: 16px;
 }
 
@@ -341,13 +341,14 @@ img, svg{ display:block; max-width:100%; }
   width: 120px;
   height: 120px;
   margin: 0 auto 24px;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface) 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 40px var(--glow);
   overflow: hidden;
+  border: 2px solid var(--line-strong);
 }
 
 .avatar-img{
@@ -362,7 +363,7 @@ img, svg{ display:block; max-width:100%; }
 }
 
 .profile-name{
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 24px;
   font-weight: 700;
   color: var(--ink);
