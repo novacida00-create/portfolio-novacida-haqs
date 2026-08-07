@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyek — Novacida Haqs</title>
+<meta name="description" content="Proyek Novacida Haqs, pengembang front-end dan web developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">NH</span>
+    <span class="brand-name">novacida<span class="dim">.dev</span></span>
+  </a>
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <a href="tentang.html">Tentang</a>
+    <a href="proyek.html" class="active">Proyek</a>
+    <a href="keahlian.html">Keahlian</a>
+    <a href="sertifikasi.html">Sertifikasi</a>
+    <a href="kontak.html" class="nav-cta">Hubungi Saya</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- PROYEK -->
+  <section class="projects page-section" id="proyek">
+    <div class="section-head">
+      <p class="eyebrow-sm">02 — Proyek</p>
+      <h2>Karya yang Dibangun dengan Dedikasi.</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Website Pinang Laundry</h3>
+          <span class="project-type">Platform Digital Full Stack</span>
+        </div>
+        <p class="project-desc">
+          Merancang dan membangun platform pemesanan laundry dari nol, mulai dari riset alur
+          pemesanan pelanggan, desain antarmuka di Figma, sampai implementasi front-end dan
+          back-end. Saya mengerjakan sistem login &amp; register dengan manajemen pengguna
+          berbasis MySQL, dan mengoordinasikan sendiri pengembangan tiap fitur dari desain
+          sampai rilis.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>React.js</li><li>PHP</li><li>MySQL</li><li>CSS</li><li>Figma</li>
+          </ul>
+          <a href="https://pinang-laundry-v2.vercel.app/" class="project-btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Sistem Rekomendasi Makanan</h3>
+          <span class="project-type">Forward Chaining</span>
+        </div>
+        <p class="project-desc">
+          Membangun sistem rekomendasi berbasis logika forward chaining yang menyusun rekomendasi
+          makanan sesuai preferensi pengguna. Sebagian besar waktu saya habiskan meriset metode
+          yang tepat dan mendokumentasikan alur pengambilan keputusan sistem secara terstruktur,
+          supaya logikanya bisa ditelusuri ulang, bukan cuma menghasilkan output.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>Sistem Pakar</li><li>Forward Chaining</li><li>Riset Metode</li>
+          </ul>
+          <a href="https://rekomendasi-makanan-indonesia.vercel.app/" class="project-btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Deteksi Kesehatan Lebah Madu</h3>
+          <span class="project-type">Machine Learning · CNN</span>
+        </div>
+        <p class="project-desc">
+          Menerapkan Convolutional Neural Network untuk menganalisis data visual dan mendeteksi
+          kondisi kesehatan lebah madu. Prosesnya mencakup riset teknologi yang relevan,
+          eksperimen pada beberapa konfigurasi model, dan evaluasi hasil secara sistematis
+          sebelum menentukan pendekatan akhir.
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>Python</li><li>CNN</li><li>Machine Learning</li>
+          </ul>
+          <a href="https://bee-health-detection.vercel.app/" class="project-btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Toko Azzam Jaya</h3>
+          <span class="project-type">Manajemen Stok Barang</span>
+        </div>
+        <p class="project-desc">
+          Membangun sistem manajemen stok barang menggunakan Laravel untuk mencatat
+          jumlah barang, memantau perubahan stok, dan melaporkan data barang secara terstruktur
+          dengan integrasi database MySQL.
+        </p>
+        <p class="project-login" style="margin-top:0.5rem; font-size:0.85rem; color:var(--muted);">
+          Coba login: Username <strong>Admin</strong> / Password <strong>123</strong>
+        </p>
+        <div class="project-bottom">
+          <ul class="project-tags">
+            <li>Laravel</li><li>PHP</li><li>MySQL</li><li>HTML</li><li>CSS</li>
+          </ul>
+          <a href="https://azzam-jaya.great-site.net/" class="project-btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© Novacida Haqs.</span>
+  <span>Dibangun dengan HTML, CSS, dan JavaScript murni.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
