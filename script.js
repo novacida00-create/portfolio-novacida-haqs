@@ -107,24 +107,28 @@ const certDownload = document.getElementById("certDownload");
 const certModalClose = document.querySelector(".cert-modal-close");
 const certModalOverlay = document.querySelector(".cert-modal-overlay");
 
+function openCert(file) {
+  const isImage = file.match(/\.(png|jpg|jpeg|gif|webp)$/i);
+  
+  if (isImage) {
+    certFrame.style.display = "none";
+    certImg.style.display = "block";
+    certImg.src = file;
+  } else {
+    certImg.style.display = "none";
+    certFrame.style.display = "block";
+    certFrame.src = file;
+  }
+  
+  certDownload.href = file;
+  certModal.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
 document.querySelectorAll(".cert-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     const file = btn.getAttribute("data-file");
-    const isImage = file.match(/\.(png|jpg|jpeg|gif|webp)$/i);
-    
-    if (isImage) {
-      certFrame.style.display = "none";
-      certImg.style.display = "block";
-      certImg.src = file;
-    } else {
-      certImg.style.display = "none";
-      certFrame.style.display = "block";
-      certFrame.src = file;
-    }
-    
-    certDownload.href = file;
-    certModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    openCert(file);
   });
 });
 
